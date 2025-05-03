@@ -1,0 +1,11 @@
+{
+	"scripts": {
+    "start": "nodemon src/betterpings.js --ext html,css,js",
+    "devdeploy" : "node src/deploydeveloper.js",
+    "globaldeploy" : "node src/deployglobal.js"
+  },
+	"dependencies": {
+		"discord.js": "^14.19.3",
+		"dotenv": "^16.5.0"
+	}
+}
